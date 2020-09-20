@@ -50,7 +50,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 3993438548,
+  "duration": 3913912472,
   "status": "passed"
 });
 formatter.match({
@@ -63,7 +63,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 89313967,
+  "duration": 80604256,
   "status": "passed"
 });
 formatter.match({
@@ -76,7 +76,7 @@ formatter.match({
   "location": "NewDeckCreation.user_receives_response(int)"
 });
 formatter.result({
-  "duration": 1340164,
+  "duration": 1395801,
   "status": "passed"
 });
 formatter.match({
@@ -93,7 +93,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 808433899,
+  "duration": 936936163,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,7 +135,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 151507049,
+  "duration": 139184678,
   "status": "passed"
 });
 formatter.match({
@@ -148,7 +148,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 97423008,
+  "duration": 73705738,
   "status": "passed"
 });
 formatter.match({
@@ -161,7 +161,7 @@ formatter.match({
   "location": "NewDeckCreation.user_receives_response(int)"
 });
 formatter.result({
-  "duration": 166373,
+  "duration": 157730,
   "status": "passed"
 });
 formatter.scenario({
@@ -203,7 +203,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 134877897,
+  "duration": 133459410,
   "status": "passed"
 });
 formatter.match({
@@ -216,7 +216,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 130779623,
+  "duration": 130225407,
   "status": "passed"
 });
 formatter.match({
@@ -229,7 +229,7 @@ formatter.match({
   "location": "NewDeckCreation.user_receives_response(int)"
 });
 formatter.result({
-  "duration": 243077,
+  "duration": 171774,
   "status": "passed"
 });
 formatter.scenario({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 126603564,
+  "duration": 126228145,
   "status": "passed"
 });
 formatter.match({
@@ -289,7 +289,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 149430633,
+  "duration": 1929980926,
   "status": "passed"
 });
 formatter.match({
@@ -302,7 +302,7 @@ formatter.match({
   "location": "NewDeckCreation.user_receives_response(int)"
 });
 formatter.result({
-  "duration": 132882,
+  "duration": 133423,
   "status": "passed"
 });
 formatter.match({
@@ -319,7 +319,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 19573622,
+  "duration": 15131799,
   "status": "passed"
 });
 formatter.scenario({
@@ -361,7 +361,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 154393720,
+  "duration": 129144527,
   "status": "passed"
 });
 formatter.match({
@@ -374,7 +374,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 61866818,
+  "duration": 66593851,
   "status": "passed"
 });
 formatter.match({
@@ -387,7 +387,7 @@ formatter.match({
   "location": "NewDeckCreation.user_receives_response(int)"
 });
 formatter.result({
-  "duration": 163132,
+  "duration": 119918,
   "status": "passed"
 });
 formatter.scenario({
@@ -434,7 +434,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 132350439,
+  "duration": 116692514,
   "status": "passed"
 });
 formatter.match({
@@ -447,7 +447,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 108556464,
+  "duration": 89098439,
   "status": "passed"
 });
 formatter.match({
@@ -460,7 +460,7 @@ formatter.match({
   "location": "NewDeckCreation.user_receives_response(int)"
 });
 formatter.result({
-  "duration": 131261,
+  "duration": 232273,
   "status": "passed"
 });
 formatter.match({
@@ -477,7 +477,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 17740823,
+  "duration": 21428567,
   "status": "passed"
 });
 formatter.uri("Drawoneormorecards.feature");
@@ -542,7 +542,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 135539606,
+  "duration": 118873722,
   "status": "passed"
 });
 formatter.match({
@@ -555,7 +555,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 60243066,
+  "duration": 53814496,
   "status": "passed"
 });
 formatter.match({
@@ -568,7 +568,7 @@ formatter.match({
   "location": "Drawcards.count_of_deck_is(String)"
 });
 formatter.result({
-  "duration": 20334722,
+  "duration": 22679063,
   "status": "passed"
 });
 formatter.match({
@@ -581,7 +581,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 255263557,
+  "duration": 1210523388,
   "status": "passed"
 });
 formatter.match({
@@ -594,7 +594,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 198782,
+  "duration": 311138,
   "status": "passed"
 });
 formatter.match({
@@ -611,7 +611,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 20727966,
+  "duration": 34443438,
   "status": "passed"
 });
 formatter.scenario({
@@ -652,7 +652,7 @@ formatter.match({
   "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
 });
 formatter.result({
-  "duration": 24664730,
+  "duration": 14619177,
   "status": "passed"
 });
 formatter.match({
@@ -665,7 +665,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 194376068,
+  "duration": 140502153,
   "status": "passed"
 });
 formatter.match({
@@ -678,7 +678,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 167993,
+  "duration": 163132,
   "status": "passed"
 });
 formatter.match({
@@ -695,7 +695,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 28747880,
+  "duration": 34051274,
   "status": "passed"
 });
 formatter.scenario({
@@ -736,7 +736,7 @@ formatter.match({
   "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
 });
 formatter.result({
-  "duration": 107996307,
+  "duration": 19139325,
   "status": "passed"
 });
 formatter.match({
@@ -749,7 +749,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 130701838,
+  "duration": 114743578,
   "status": "passed"
 });
 formatter.match({
@@ -762,7 +762,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 110195,
+  "duration": 142605,
   "status": "passed"
 });
 formatter.match({
@@ -779,7 +779,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 64458017,
+  "duration": 64917702,
   "status": "passed"
 });
 formatter.scenario({
@@ -820,7 +820,7 @@ formatter.match({
   "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
 });
 formatter.result({
-  "duration": 49736748,
+  "duration": 42897107,
   "status": "passed"
 });
 formatter.match({
@@ -833,7 +833,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 111970882,
+  "duration": 131633092,
   "status": "passed"
 });
 formatter.match({
@@ -846,7 +846,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 163672,
+  "duration": 170694,
   "status": "passed"
 });
 formatter.match({
@@ -859,7 +859,7 @@ formatter.match({
   "location": "Drawcards.error_messsage_should_be_displayed(String)"
 });
 formatter.result({
-  "duration": 17829410,
+  "duration": 18660194,
   "status": "passed"
 });
 formatter.scenario({
@@ -905,7 +905,7 @@ formatter.match({
   "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
 });
 formatter.result({
-  "duration": 20650182,
+  "duration": 22540239,
   "status": "passed"
 });
 formatter.match({
@@ -918,7 +918,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 113840413,
+  "duration": 123909733,
   "status": "passed"
 });
 formatter.match({
@@ -931,7 +931,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 112896,
+  "duration": 172855,
   "status": "passed"
 });
 formatter.match({
@@ -948,7 +948,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 13476176,
+  "duration": 12033921,
   "status": "passed"
 });
 formatter.match({
@@ -961,7 +961,7 @@ formatter.match({
   "location": "Drawcards.error_messsage_should_be_displayed(String)"
 });
 formatter.result({
-  "duration": 14407970,
+  "duration": 12255930,
   "status": "passed"
 });
 formatter.scenario({
@@ -1018,7 +1018,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 112182089,
+  "duration": 131749769,
   "status": "passed"
 });
 formatter.match({
@@ -1031,7 +1031,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 57636203,
+  "duration": 73312494,
   "status": "passed"
 });
 formatter.match({
@@ -1044,7 +1044,7 @@ formatter.match({
   "location": "Drawcards.count_of_deck_is(String)"
 });
 formatter.result({
-  "duration": 15984188,
+  "duration": 19596849,
   "status": "passed"
 });
 formatter.match({
@@ -1057,7 +1057,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 147324508,
+  "duration": 116355448,
   "status": "passed"
 });
 formatter.match({
@@ -1070,7 +1070,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 143685,
+  "duration": 157730,
   "status": "passed"
 });
 formatter.match({
@@ -1087,7 +1087,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 17479380,
+  "duration": 15905864,
   "status": "passed"
 });
 formatter.scenario({
@@ -1128,7 +1128,7 @@ formatter.match({
   "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
 });
 formatter.result({
-  "duration": 13215814,
+  "duration": 25281065,
   "status": "passed"
 });
 formatter.match({
@@ -1141,7 +1141,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 107611706,
+  "duration": 116767598,
   "status": "passed"
 });
 formatter.match({
@@ -1154,7 +1154,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 142065,
+  "duration": 118297,
   "status": "passed"
 });
 formatter.match({
@@ -1167,7 +1167,7 @@ formatter.match({
   "location": "Drawcards.error_messsage_should_be_displayed(String)"
 });
 formatter.result({
-  "duration": 32423740,
+  "duration": 32638728,
   "status": "passed"
 });
 formatter.scenario({
@@ -1213,7 +1213,7 @@ formatter.match({
   "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
 });
 formatter.result({
-  "duration": 20544849,
+  "duration": 31404438,
   "status": "passed"
 });
 formatter.match({
@@ -1226,7 +1226,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
 });
 formatter.result({
-  "duration": 108665038,
+  "duration": 112058391,
   "status": "passed"
 });
 formatter.match({
@@ -1239,7 +1239,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 114516,
+  "duration": 162592,
   "status": "passed"
 });
 formatter.match({
@@ -1256,7 +1256,7 @@ formatter.match({
   "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
 });
 formatter.result({
-  "duration": 11796786,
+  "duration": 15007020,
   "status": "passed"
 });
 formatter.match({
@@ -1269,7 +1269,7 @@ formatter.match({
   "location": "Drawcards.error_messsage_should_be_displayed(String)"
 });
 formatter.result({
-  "duration": 13074829,
+  "duration": 30394319,
   "status": "passed"
 });
 formatter.scenario({
@@ -1321,7 +1321,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 143800976,
+  "duration": 117992165,
   "status": "passed"
 });
 formatter.match({
@@ -1334,7 +1334,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 58906143,
+  "duration": 67547253,
   "status": "passed"
 });
 formatter.match({
@@ -1347,7 +1347,7 @@ formatter.match({
   "location": "Drawcards.count_of_deck_is(String)"
 });
 formatter.result({
-  "duration": 13256326,
+  "duration": 25795307,
   "status": "passed"
 });
 formatter.match({
@@ -1360,7 +1360,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_by_postrequest(String)"
 });
 formatter.result({
-  "duration": 94245725,
+  "duration": 90335970,
   "status": "passed"
 });
 formatter.match({
@@ -1373,7 +1373,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 232813,
+  "duration": 166373,
   "status": "passed"
 });
 formatter.scenario({
@@ -1425,7 +1425,7 @@ formatter.match({
   "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
 });
 formatter.result({
-  "duration": 132631868,
+  "duration": 200591271,
   "status": "passed"
 });
 formatter.match({
@@ -1438,7 +1438,7 @@ formatter.match({
   "location": "NewDeckCreation.A_user_perform_post_request(String)"
 });
 formatter.result({
-  "duration": 56168560,
+  "duration": 66584668,
   "status": "passed"
 });
 formatter.match({
@@ -1451,7 +1451,7 @@ formatter.match({
   "location": "Drawcards.count_of_deck_is(String)"
 });
 formatter.result({
-  "duration": 10275125,
+  "duration": 16139758,
   "status": "passed"
 });
 formatter.match({
@@ -1464,7 +1464,7 @@ formatter.match({
   "location": "Drawcards.Draw_the_by_postrequest(String)"
 });
 formatter.result({
-  "duration": 77228190,
+  "duration": 72334245,
   "status": "passed"
 });
 formatter.match({
@@ -1477,7 +1477,7 @@ formatter.match({
   "location": "Drawcards.verify_response_code(int)"
 });
 formatter.result({
-  "duration": 153948,
+  "duration": 135583,
   "status": "passed"
 });
 });
