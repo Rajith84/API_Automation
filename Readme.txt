@@ -16,9 +16,10 @@ Step to run the project
 3.Go to testrunner class right click run as JUnit test
 
 Software requirment:
-System installed with eclips and assocaited depedences and plugin are added in pom.xml file
+System installed with eclipse with maven project and assocaited depedences and plugin are added in pom.xml file
 
 
 Information:
-Can use datatable in features table will make more effective reuse of the methods.
-Using java Map to compare more respone result 
+Can use datatable or datadriven in features table will make more effective reuse of the methods.
+Using java Map to compare more respone result
+Can use interface and abstract class to make more effectiv way. 
