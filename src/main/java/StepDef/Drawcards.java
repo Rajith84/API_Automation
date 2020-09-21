@@ -14,32 +14,32 @@ import org.codehaus.groovy.transform.EqualsAndHashCodeASTTransformation;
 import com.sun.tools.javac.sym.CreateSymbols; 
 public class Drawcards     {
 	
-	String endpoint;
-	
-	 String url;
-	
-	 
+	String endpoint;	
+	String url;	 
 	static String deck_id;
 	static int numbe;
 	private static Response draw_response;
 	 
-	public static String new_deckid()
+	public static String new_deckid() ///will get new_deckid id for the newly 
 	{
 		return  NewDeckCreation.response1.jsonPath().getString("deck_id").trim();
 	}
-	public static String new_remaining()
+	public static String new_remaining()//Will get remaining number from the response for the newly created card
 	{
 		return   NewDeckCreation.response1.jsonPath().getString("remaining").trim();
 	}
-	public static String card_remaining()
+	public static String card_remaining() ///Will get remaining number from the response for the drawn created card
 	{
 		return   draw_response.jsonPath().getString("remaining").trim();
 	}
-	public static String error()
+	public static String error()//Will get the error message out of card
 	{
 		return   draw_response.jsonPath().getString("error").trim();
 	}
-	 
+/*
+ *  can accommodate more opps concepts and we make use of data table in feature table and to validate map collection  
+ *  
+ */
 	
 	@Given("^count of deck is \"([^\"]*)\"$")
 	public void count_of_deck_is(String value) throws Throwable  {
@@ -68,7 +68,7 @@ public class Drawcards     {
 		 
 		System.out.println("The count is "+Drawcards.card_remaining() );  
 
-}
+	}
 	@Then("^error messsage should be displayed \"([^\"]*)\"$")
 	public void error_messsage_should_be_displayed(String value) throws Throwable {
 		Assert.assertEquals(value,Drawcards.error() );
@@ -79,17 +79,24 @@ public class Drawcards     {
 		 draw_response=given().contentType(ContentType.JSON).log().all().get(path);
 	}
 	
-	@Then("^Validate the response body for the (\\d+) remaing value (\\d+)$")
-	public void Validate_the_response_body_for_the_remaing_value(int type1, int numbe) throws Throwable{
-		int  count;
-		if ( type1==2){
+
+@Then("^Validate the response body for the \"([^\"]*)\" remaing value (\\d+)$")
+public void Validate_the_response_body_for_the_remaing_value(String type1, int numbe)  throws Throwable{
+		
+		try{
+			int  count;//will check if new card or old card 
+		
+		if (type1=="New"){
 			 count = Integer.parseInt(Drawcards.new_remaining());
 		}
 		else    {
-			 count = Integer.parseInt(Drawcards.card_remaining());
+			 
+			count = Integer.parseInt(Drawcards.card_remaining());
 		}
-
-		
 		 Assert.assertEquals(numbe,count);
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}		
 	}
 }
