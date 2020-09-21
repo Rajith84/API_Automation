@@ -20,6 +20,7 @@ System installed with eclipse with maven project and assocaited depedences and p
 
 
 Information:
+for complex project:
 Can use datatable or datadriven in features table will make more effective reuse of the methods.
 Using java Map to compare more respone result
 Can use interface and abstract class to make more effectiv way. 
