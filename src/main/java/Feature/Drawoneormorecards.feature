@@ -7,21 +7,23 @@ Scenario: 1 Create of new cards with valid end point
 	And count of deck is "52"	   
 	Then Draw the 0 cards from the avaible deck_id by postrequest
 	And verify response code 200 
-	Then Validate the response body for the 1 remaing value 52
+	Then Validate the response body for the "Drawncard" remaing value 52
+ 
  
 @TestcaseId2
 Scenario: 2 draw the deck count is 4 
 	Given Get the reaming count of the deck  
 	Then Draw the 4 cards from the avaible deck_id by postrequest
 	And verify response code 200 
-	Then Validate the response body for the 1 remaing value 48
+	Then Validate the response body for the "Drawncard" remaing value 48
  
 @TestcaseId2
 Scenario: 3 draw the deck count is 52 
 	Given Get the reaming count of the deck  
 	Then Draw the 52 cards from the avaible deck_id by postrequest
 	And verify response code 200
-	Then Validate the response body for the 1 remaing value 0
+	Then Validate the response body for the "Drawncard" remaing value 0
+ 
  
 @TestcaseId2
 Scenario: 4 draw the deck count is 53 and error message should be displayed "Not enough cards remaining to draw 53 additional" 
@@ -35,7 +37,7 @@ Scenario: 5 draw the deck count is 52
 	Given Get the reaming count of the deck  
 	Then Draw the 5 cards from the avaible deck_id by postrequest
 	And verify response code 200 
-	Then Validate the response body for the 1 remaing value 0	
+	Then Validate the response body for the "Drawncard" remaing value 0 
 	Then error messsage should be displayed "Not enough cards remaining to draw 5 additional"
  	
 @TestcaseId2
@@ -45,7 +47,7 @@ Scenario: 6 Create of new cards with valid end point along with jokers_enabled
 	And count of deck is "54"	   
 	Then Draw the 0 cards from the avaible deck_id by postrequest
 	And verify response code 200 
-	Then Validate the response body for the 1 remaing value 54
+	Then Validate the response body for the "Drawncard" remaing value 54 
  	
 
 @TestcaseId2
@@ -60,7 +62,7 @@ Scenario: 7 draw the deck count is 4
 	Given Get the reaming count of the deck  
 	Then Draw the 4 cards from the avaible deck_id by postrequest
 	And verify response code 200 
-	Then Validate the response body for the 1 remaing value 0
+	Then Validate the response body for the "Drawncard" remaing value 0 
  	Then error messsage should be displayed "Not enough cards remaining to draw 4 additional"
  	
 @TestcaseId2
