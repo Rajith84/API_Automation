@@ -1,3 +1,10 @@
+# Finra Test
+## Install Java
+1. Download Java SDK 1.8 
+        https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+2. Install Java 
+3. Set environment variable with JAVA_HOME with jdk Location and Add also JAVA_HOME/bin to the $PATH
+
 Step to import the project:
 Down load the below project https://github.com/Rajith84/FINRA_API_Assignment into youre local system.
 1.open the eclipse
