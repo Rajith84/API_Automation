@@ -86,7 +86,7 @@ public void Validate_the_response_body_for_the_remaing_value(String type1, int n
 		try{
 			int  count;//will check if new card or old card 
 		
-		if (type1=="New"){
+		if (type1.equals("New")){
 			 count = Integer.parseInt(Drawcards.new_remaining());
 		}
 		else    {
