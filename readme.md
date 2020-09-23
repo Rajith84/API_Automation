@@ -1,11 +1,12 @@
 # Finra Test
 ## Install Java
-1. Download Java SDK 1.8 
-        https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
-2. Install Java 
-3. Set environment variable with JAVA_HOME with jdk Location and Add also JAVA_HOME/bin to the $PATH
+1. Download Java SDK 1.8  https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
+2. Select Start -> Computer -> System Properties -> Advanced system settings -> Environment Variables -> System variables -> PATH. set the JAVA_HOME
+3. Prepend C:\Program Files\Java\jdk1.6.0_27\bin; to the beginning of the PATH variable.
+4. Install Maven https://maven.apache.org/download.cgi 
+5. set the MAVEN_HOME path similar to JAVA_HOME 
 
-Step to import the project:
+## Step to download the project:   
 Down load the below project https://github.com/Rajith84/FINRA_API_Assignment into youre local system.
 1.open the eclipse
 2.Click File menu
@@ -16,13 +17,13 @@ Down load the below project https://github.com/Rajith84/FINRA_API_Assignment int
 7.Browse the loaction where you dowloaded the project 
 
 
-Step to run the project
+## Step to run the project
 1.Go to POM.XML IN  project FINRA_API_Assignment and verify for the assocaited depedences and plugin
-1.Go to testrunner  class of runner package in scr/main/java of the project FINRA_API_Assignment
+1.Go to  runner  class in scr/main/java of the project FINRA_API_Assignment
 2.Change the features path with your feature path or loaction(right click on feature->properties->path or loaction)
 3.Go to testrunner class right click run as JUnit test
 
-Software requirment:
+##Software requirment:
 System installed with eclipse with maven project and assocaited depedences and plugin are added in pom.xml file
 
 
