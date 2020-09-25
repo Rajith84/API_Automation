@@ -54,11 +54,11 @@ Then error messsage should be displayed "Not enough cards remaining to draw 4 ad
 @TestcaseId2 Scenario: 8 500 error for cards along with jokers_enabled=true
 @TestcaseId2 Scenario: 9 404 error for cards along with jokers_enabled=true
 
-##Software requirment:
+## Software requirment:
 System installed with eclipse with maven project and assocaited depedences and plugin are added in pom.xml file
 
 
-##Information:
+## Information:
 for complex project:
 Can use datatable or datadriven in features table will make more effective reuse of the methods.
 Using java Map to compare more respone result
