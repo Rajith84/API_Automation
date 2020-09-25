@@ -29,6 +29,7 @@ Down load the below project https://github.com/Rajith84/FINRA_API_Assignment int
 3.Check the output created in the (API_Automation-main\test-outout)
 
 ## Result output 
+
 Feature: Create of new cards with joker and with or without joker
 @TestcaseId1 Scenario: 1 Create of new cards with valid end point
 @TestcaseId1 Scenario: 2 validate the invalid end point for new cards
