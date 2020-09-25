@@ -25,8 +25,33 @@ Down load the below project https://github.com/Rajith84/FINRA_API_Assignment int
 3.Go to testrunner class right click run as JUnit test
 ## Running through Command line
 1.Run->cmd->(Go the path where it present)
-2.mvn -Dtest=<Provide the Runner class name> test (Eg of my run:mvn -Dtest=TestRunner test)
-3.Check the output created in the 
+2.mvn test
+3.Check the output created in the (API_Automation-main\test-outout)
+
+##Result output:
+ Feature: Create of new cards with joker and with or without joker
+@TestcaseId1 Scenario: 1 Create of new cards with valid end point
+@TestcaseId1 Scenario: 2 validate the invalid end point for new cards
+@TestcaseId1 Scenario: 3 validate of new cards with invalid end point with jokers_enabled=true
+@TestcaseId1 Scenario: 4 validate of new cards with end point with jokers_enabled=true
+@TestcaseId1 Scenario: 5 Invalid end point or resource not found
+@TestcaseId1 Scenario: 6 Create of new cards with invalid end point end point with jokers_enabled=true
+ Feature: Draw one or more cards from the avaible deck
+@TestcaseId2 Scenario: 1 Create of new cards with valid end point
+@TestcaseId2 Scenario: 2 draw the deck count is 4
+@TestcaseId2 Scenario: 3 draw the deck count is 52
+@TestcaseId2 Scenario: 4 draw the deck count is 53 and error message should be displayed "Not enough cards remaining to draw 53 additional"
+@TestcaseId2 Scenario: 5 draw the deck count is 52
+@TestcaseId2 Scenario: 6 Create of new cards with valid end point along with jokers_enabled
+@TestcaseId2 Scenario: 7 draw the deck count is 56 and error message should be displayed "Not enough cards remaining to draw 56 additional"
+@TestcaseId2 Scenario: 7 draw the deck count is 4
+Given Get the reaming count of the deck
+Then Draw the 4 cards from the avaible deck_id by postrequest
+And verify response code 200
+Then Validate the response body for the "Drawncard" remaing value 0
+Then error messsage should be displayed "Not enough cards remaining to draw 4 additional"
+@TestcaseId2 Scenario: 8 500 error for cards along with jokers_enabled=true
+@TestcaseId2 Scenario: 9 404 error for cards along with jokers_enabled=true
 
 ##Software requirment:
 System installed with eclipse with maven project and assocaited depedences and plugin are added in pom.xml file
