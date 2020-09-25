@@ -18,16 +18,21 @@ Down load the below project https://github.com/Rajith84/FINRA_API_Assignment int
 
 
 ## Step to run the project
+## One method 
 1.Go to POM.XML IN  project FINRA_API_Assignment and verify for the assocaited depedences and plugin
 1.Go to  runner  class in scr/main/java of the project FINRA_API_Assignment
 2.Change the features path with your feature path or loaction(right click on feature->properties->path or loaction)
 3.Go to testrunner class right click run as JUnit test
+## Running through Command line
+1.Run->cmd->(Go the path where it present)
+2.mvn -Dtest=<Provide the Runner class name> test (Eg of my run:mvn -Dtest=TestRunner test)
+3.Check the output created in the 
 
 ##Software requirment:
 System installed with eclipse with maven project and assocaited depedences and plugin are added in pom.xml file
 
 
-Information:
+##Information:
 for complex project:
 Can use datatable or datadriven in features table will make more effective reuse of the methods.
 Using java Map to compare more respone result
