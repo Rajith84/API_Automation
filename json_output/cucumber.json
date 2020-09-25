@@ -1,0 +1,2131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "1 Create of new cards with valid end point",
+        "description": "",
+        "id": "create-of-new-cards-with-joker-and-with-or-without-joker;1-create-of-new-cards-with-valid-end-point",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 3913912472,
+=======
+              "duration": 4604884342,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 80604256,
+=======
+              "duration": 86065567,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck/new/",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 1395801,
+=======
+              "duration": 2311935,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user receives 200 response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 14
+                }
+              ],
+              "location": "NewDeckCreation.user_receives_response(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 936936163,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the response body for the 2 remaing value 52",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 35
+                },
+                {
+                  "val": "52",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 613095,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the response body for the \"New\" remaing value 52",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New",
+                  "offset": 36
+                },
+                {
+                  "val": "52",
+                  "offset": 55
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestcaseId1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "2 validate  the invalid end point  for new cards",
+        "description": "",
+        "id": "create-of-new-cards-with-joker-and-with-or-without-joker;2-validate--the-invalid-end-point--for-new-cards",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 139184678,
+=======
+              "duration": 179112854,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 73705738,
+=======
+              "duration": 133328976,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck/ \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck/ ",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 157730,
+=======
+              "duration": 167453,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user receives 404 response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 14
+                }
+              ],
+              "location": "NewDeckCreation.user_receives_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@TestcaseId1"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "3 validate of new cards with invalid  end point with jokers_enabled\u003dtrue",
+        "description": "",
+        "id": "create-of-new-cards-with-joker-and-with-or-without-joker;3-validate-of-new-cards-with-invalid--end-point-with-jokers-enabled\u003dtrue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 133459410,
+=======
+              "duration": 172560031,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 130225407,
+=======
+              "duration": 227907110,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "A user perform post request \"https://deckofcardsapi.com/api/deck/news/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/news/",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 171774,
+=======
+              "duration": 169614,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user receives 500 response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 14
+                }
+              ],
+              "location": "NewDeckCreation.user_receives_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@TestcaseId1"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "4 validate of new cards with  end point with jokers_enabled\u003dtrue",
+        "description": "",
+        "id": "create-of-new-cards-with-joker-and-with-or-without-joker;4-validate-of-new-cards-with--end-point-with-jokers-enabled\u003dtrue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 126228145,
+=======
+              "duration": 206117121,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 1929980926,
+=======
+              "duration": 677989027,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "A user perform post request \"https://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dflase\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dflase",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 133423,
+=======
+              "duration": 153409,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user receives 200 response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 14
+                }
+              ],
+              "location": "NewDeckCreation.user_receives_response(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 15131799,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the response body for the 2 remaing value 52",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 35
+                },
+                {
+                  "val": "52",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 464548,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the response body for the \"New\" remaing value 52",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New",
+                  "offset": 36
+                },
+                {
+                  "val": "52",
+                  "offset": 55
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@TestcaseId1"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "5 Invalid end point or resource not found",
+        "description": "",
+        "id": "create-of-new-cards-with-joker-and-with-or-without-joker;5-invalid-end-point-or-resource-not-found",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 129144527,
+=======
+              "duration": 134954353,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 66593851,
+=======
+              "duration": 58521668,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck//?jokers_enabled\u003dtrue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck//?jokers_enabled\u003dtrue",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 119918,
+=======
+              "duration": 173396,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user receives 404 response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 14
+                }
+              ],
+              "location": "NewDeckCreation.user_receives_response(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@TestcaseId1"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "6 Create of new cards with invalid end point end point with jokers_enabled\u003dtrue",
+        "description": "",
+        "id": "create-of-new-cards-with-joker-and-with-or-without-joker;6-create-of-new-cards-with-invalid-end-point-end-point-with-jokers-enabled\u003dtrue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 116692514,
+=======
+              "duration": 138324484,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 89098439,
+=======
+              "duration": 100836024,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "A user perform post request \"https://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 232273,
+=======
+              "duration": 165292,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user receives 200 response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 14
+                }
+              ],
+              "location": "NewDeckCreation.user_receives_response(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 21428567,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Validate the response body for the 2 remaing value 54",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 35
+                },
+                {
+                  "val": "54",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 765424,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Validate the response body for the \"New\" remaing value 54",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New",
+                  "offset": 36
+                },
+                {
+                  "val": "54",
+                  "offset": 55
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@TestcaseId1"
+          }
+        ]
+      }
+    ],
+    "name": "Create of new cards with joker and with or without joker",
+    "description": "",
+    "id": "create-of-new-cards-with-joker-and-with-or-without-joker",
+    "keyword": "Feature",
+<<<<<<< HEAD
+    "uri": "Createnewdeckcards.feature"
+=======
+    "uri": "src/test/resource/Feature/Createnewdeckcards.feature"
+>>>>>>> main
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "1 Create of new cards with valid end point",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;1-create-of-new-cards-with-valid-end-point",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 118873722,
+=======
+              "duration": 225710232,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 53814496,
+=======
+              "duration": 105834774,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck/new/",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 22679063,
+=======
+              "duration": 7325007846,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "count of deck is \"52\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "52",
+                  "offset": 18
+                }
+              ],
+              "location": "Drawcards.count_of_deck_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 1210523388,
+=======
+              "duration": 658512053,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Draw the 0 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 311138,
+=======
+              "duration": 220390,
+>>>>>>> main
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 34443438,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate the response body for the 1 remaing value 52",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "52",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 43598344,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate the response body for the \"Drawncard\" remaing value 52",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Drawncard",
+                  "offset": 36
+                },
+                {
+                  "val": "52",
+                  "offset": 61
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 13,
+=======
+        "line": 14,
+>>>>>>> main
+        "name": "2 draw the deck count is 4",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;2-draw-the-deck-count-is-4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 14619177,
+              "status": "passed"
+            },
+            "line": 14,
+=======
+              "duration": 18537615,
+              "status": "passed"
+            },
+            "line": 15,
+>>>>>>> main
+            "name": "Get the reaming count of the deck",
+            "match": {
+              "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 140502153,
+              "status": "passed"
+            },
+            "line": 15,
+=======
+              "duration": 142216422,
+              "status": "passed"
+            },
+            "line": 16,
+>>>>>>> main
+            "name": "Draw the 4 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 163132,
+              "status": "passed"
+            },
+            "line": 16,
+=======
+              "duration": 119918,
+              "status": "passed"
+            },
+            "line": 17,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 34051274,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate the response body for the 1 remaing value 48",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "48",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 20435778,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate the response body for the \"Drawncard\" remaing value 48",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Drawncard",
+                  "offset": 36
+                },
+                {
+                  "val": "48",
+                  "offset": 61
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 12,
+=======
+            "line": 13,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 20,
+=======
+        "line": 21,
+>>>>>>> main
+        "name": "3 draw the deck count is 52",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;3-draw-the-deck-count-is-52",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 19139325,
+              "status": "passed"
+            },
+            "line": 21,
+=======
+              "duration": 24554048,
+              "status": "passed"
+            },
+            "line": 22,
+>>>>>>> main
+            "name": "Get the reaming count of the deck",
+            "match": {
+              "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 114743578,
+              "status": "passed"
+            },
+            "line": 22,
+=======
+              "duration": 130478489,
+              "status": "passed"
+            },
+            "line": 23,
+>>>>>>> main
+            "name": "Draw the 52 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "52",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 142605,
+              "status": "passed"
+            },
+            "line": 23,
+=======
+              "duration": 166373,
+              "status": "passed"
+            },
+            "line": 24,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 64917702,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate the response body for the 1 remaing value 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "0",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 70764122,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the response body for the \"Drawncard\" remaing value 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Drawncard",
+                  "offset": 36
+                },
+                {
+                  "val": "0",
+                  "offset": 61
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 19,
+=======
+            "line": 20,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 27,
+=======
+        "line": 29,
+>>>>>>> main
+        "name": "4 draw the deck count is 53 and error message should be displayed \"Not enough cards remaining to draw 53 additional\"",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;4-draw-the-deck-count-is-53-and-error-message-should-be-displayed-\"not-enough-cards-remaining-to-draw-53-additional\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 42897107,
+              "status": "passed"
+            },
+            "line": 28,
+=======
+              "duration": 51696598,
+              "status": "passed"
+            },
+            "line": 30,
+>>>>>>> main
+            "name": "Get the reaming count of the deck",
+            "match": {
+              "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 131633092,
+              "status": "passed"
+            },
+            "line": 29,
+=======
+              "duration": 113929788,
+              "status": "passed"
+            },
+            "line": 31,
+>>>>>>> main
+            "name": "Draw the 53 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "53",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 170694,
+              "status": "passed"
+            },
+            "line": 30,
+=======
+              "duration": 261443,
+              "status": "passed"
+            },
+            "line": 32,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 18660194,
+              "status": "passed"
+            },
+            "line": 31,
+=======
+              "duration": 18601895,
+              "status": "passed"
+            },
+            "line": 33,
+>>>>>>> main
+            "name": "error messsage should be displayed \"Not enough cards remaining to draw 53 additional\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not enough cards remaining to draw 53 additional",
+                  "offset": 36
+                }
+              ],
+              "location": "Drawcards.error_messsage_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 26,
+=======
+            "line": 28,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 34,
+=======
+        "line": 36,
+>>>>>>> main
+        "name": "5 draw the deck count is 52",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;5-draw-the-deck-count-is-52",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 22540239,
+              "status": "passed"
+            },
+            "line": 35,
+=======
+              "duration": 15956674,
+              "status": "passed"
+            },
+            "line": 37,
+>>>>>>> main
+            "name": "Get the reaming count of the deck",
+            "match": {
+              "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 123909733,
+              "status": "passed"
+            },
+            "line": 36,
+=======
+              "duration": 115026336,
+              "status": "passed"
+            },
+            "line": 38,
+>>>>>>> main
+            "name": "Draw the 5 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 172855,
+              "status": "passed"
+            },
+            "line": 37,
+=======
+              "duration": 185819,
+              "status": "passed"
+            },
+            "line": 39,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 12033921,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Validate the response body for the 1 remaing value 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "0",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 13869451,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Validate the response body for the \"Drawncard\" remaing value 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Drawncard",
+                  "offset": 36
+                },
+                {
+                  "val": "0",
+                  "offset": 61
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 12255930,
+              "status": "passed"
+            },
+            "line": 39,
+=======
+              "duration": 20881960,
+              "status": "passed"
+            },
+            "line": 41,
+>>>>>>> main
+            "name": "error messsage should be displayed \"Not enough cards remaining to draw 5 additional\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not enough cards remaining to draw 5 additional",
+                  "offset": 36
+                }
+              ],
+              "location": "Drawcards.error_messsage_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 33,
+=======
+            "line": 35,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 42,
+=======
+        "line": 44,
+>>>>>>> main
+        "name": "6 Create of new cards with valid end point along with jokers_enabled",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;6-create-of-new-cards-with-valid-end-point-along-with-jokers-enabled",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 131749769,
+              "status": "passed"
+            },
+            "line": 43,
+=======
+              "duration": 125212355,
+              "status": "passed"
+            },
+            "line": 45,
+>>>>>>> main
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 73312494,
+              "status": "passed"
+            },
+            "line": 44,
+=======
+              "duration": 86721336,
+              "status": "passed"
+            },
+            "line": 46,
+>>>>>>> main
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 19596849,
+              "status": "passed"
+            },
+            "line": 45,
+=======
+              "duration": 16595697,
+              "status": "passed"
+            },
+            "line": 47,
+>>>>>>> main
+            "name": "count of deck is \"54\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "54",
+                  "offset": 18
+                }
+              ],
+              "location": "Drawcards.count_of_deck_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 116355448,
+              "status": "passed"
+            },
+            "line": 46,
+=======
+              "duration": 302149938,
+              "status": "passed"
+            },
+            "line": 48,
+>>>>>>> main
+            "name": "Draw the 0 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 157730,
+              "status": "passed"
+            },
+            "line": 47,
+=======
+              "duration": 231194,
+              "status": "passed"
+            },
+            "line": 49,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 15905864,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Validate the response body for the 1 remaing value 54",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "54",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 20702083,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Validate the response body for the \"Drawncard\" remaing value 54",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Drawncard",
+                  "offset": 36
+                },
+                {
+                  "val": "54",
+                  "offset": 61
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 41,
+=======
+            "line": 43,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 52,
+=======
+        "line": 54,
+>>>>>>> main
+        "name": "7 draw the deck count is 56 and error message should be displayed \"Not enough cards remaining to draw 56 additional\"",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;7-draw-the-deck-count-is-56-and-error-message-should-be-displayed-\"not-enough-cards-remaining-to-draw-56-additional\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 25281065,
+              "status": "passed"
+            },
+            "line": 53,
+=======
+              "duration": 24717179,
+              "status": "passed"
+            },
+            "line": 55,
+>>>>>>> main
+            "name": "Get the reaming count of the deck",
+            "match": {
+              "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 116767598,
+              "status": "passed"
+            },
+            "line": 54,
+=======
+              "duration": 116096956,
+              "status": "passed"
+            },
+            "line": 56,
+>>>>>>> main
+            "name": "Draw the 56 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 118297,
+              "status": "passed"
+            },
+            "line": 55,
+=======
+              "duration": 161511,
+              "status": "passed"
+            },
+            "line": 57,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 32638728,
+              "status": "passed"
+            },
+            "line": 56,
+=======
+              "duration": 44736485,
+              "status": "passed"
+            },
+            "line": 58,
+>>>>>>> main
+            "name": "error messsage should be displayed \"Not enough cards remaining to draw 56 additional\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not enough cards remaining to draw 56 additional",
+                  "offset": 36
+                }
+              ],
+              "location": "Drawcards.error_messsage_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 51,
+=======
+            "line": 53,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 59,
+=======
+        "line": 61,
+>>>>>>> main
+        "name": "7 draw the deck count is 4",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;7-draw-the-deck-count-is-4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 31404438,
+              "status": "passed"
+            },
+            "line": 60,
+=======
+              "duration": 38424038,
+              "status": "passed"
+            },
+            "line": 62,
+>>>>>>> main
+            "name": "Get the reaming count of the deck",
+            "match": {
+              "location": "Drawcards.Get_the_reaming_count_of_the_deck()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 112058391,
+              "status": "passed"
+            },
+            "line": 61,
+=======
+              "duration": 134849559,
+              "status": "passed"
+            },
+            "line": 63,
+>>>>>>> main
+            "name": "Draw the 4 cards from the avaible deck_id by postrequest",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 9
+                }
+              ],
+              "location": "Drawcards.Draw_the_cards_from_the_avaible_deck_id_by_postrequest(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 162592,
+              "status": "passed"
+            },
+            "line": 62,
+=======
+              "duration": 126940,
+              "status": "passed"
+            },
+            "line": 64,
+>>>>>>> main
+            "name": "verify response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 15007020,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Validate the response body for the 1 remaing value 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 35
+                },
+                {
+                  "val": "0",
+                  "offset": 51
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(int,int)"
+=======
+              "duration": 14565731,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Validate the response body for the \"Drawncard\" remaing value 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Drawncard",
+                  "offset": 36
+                },
+                {
+                  "val": "0",
+                  "offset": 61
+                }
+              ],
+              "location": "Drawcards.Validate_the_response_body_for_the_remaing_value(String,int)"
+>>>>>>> main
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 30394319,
+              "status": "passed"
+            },
+            "line": 64,
+=======
+              "duration": 14780179,
+              "status": "passed"
+            },
+            "line": 66,
+>>>>>>> main
+            "name": "error messsage should be displayed \"Not enough cards remaining to draw 4 additional\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not enough cards remaining to draw 4 additional",
+                  "offset": 36
+                }
+              ],
+              "location": "Drawcards.error_messsage_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 58,
+=======
+            "line": 60,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 67,
+=======
+        "line": 69,
+>>>>>>> main
+        "name": "8 500 error for  cards along with  jokers_enabled\u003dtrue",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;8-500-error-for--cards-along-with--jokers-enabled\u003dtrue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 117992165,
+              "status": "passed"
+            },
+            "line": 68,
+=======
+              "duration": 133967999,
+              "status": "passed"
+            },
+            "line": 70,
+>>>>>>> main
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 67547253,
+              "status": "passed"
+            },
+            "line": 69,
+=======
+              "duration": 78121262,
+              "status": "passed"
+            },
+            "line": 71,
+>>>>>>> main
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 25795307,
+              "status": "passed"
+            },
+            "line": 70,
+=======
+              "duration": 20253741,
+              "status": "passed"
+            },
+            "line": 72,
+>>>>>>> main
+            "name": "count of deck is \"54\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "54",
+                  "offset": 18
+                }
+              ],
+              "location": "Drawcards.count_of_deck_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 90335970,
+              "status": "passed"
+            },
+            "line": 71,
+=======
+              "duration": 112167207,
+              "status": "passed"
+            },
+            "line": 73,
+>>>>>>> main
+            "name": "Draw the by postrequest \"https://deckofcardsapi.com/api/deck//draw/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck//draw/",
+                  "offset": 25
+                }
+              ],
+              "location": "Drawcards.Draw_the_by_postrequest(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 166373,
+              "status": "passed"
+            },
+            "line": 72,
+=======
+              "duration": 134503,
+              "status": "passed"
+            },
+            "line": 74,
+>>>>>>> main
+            "name": "verify response code 500",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 66,
+=======
+            "line": 68,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      },
+      {
+<<<<<<< HEAD
+        "line": 75,
+=======
+        "line": 77,
+>>>>>>> main
+        "name": "9 404 error for  cards along with  jokers_enabled\u003dtrue",
+        "description": "",
+        "id": "draw-one-or-more-cards-from-the-avaible-deck;9-404-error-for--cards-along-with--jokers-enabled\u003dtrue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 200591271,
+              "status": "passed"
+            },
+            "line": 76,
+=======
+              "duration": 122243030,
+              "status": "passed"
+            },
+            "line": 78,
+>>>>>>> main
+            "name": "the api are up and runnig for \"https://deckofcardsapi.com/api/deck/new/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/new/",
+                  "offset": 31
+                }
+              ],
+              "location": "NewDeckCreation.the_api_are_up_and_runnig_for(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 66584668,
+              "status": "passed"
+            },
+            "line": 77,
+=======
+              "duration": 57443486,
+              "status": "passed"
+            },
+            "line": 79,
+>>>>>>> main
+            "name": "A user perform post request \"http://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://deckofcardsapi.com/api/deck/new/?jokers_enabled\u003dtrue",
+                  "offset": 29
+                }
+              ],
+              "location": "NewDeckCreation.A_user_perform_post_request(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 16139758,
+              "status": "passed"
+            },
+            "line": 78,
+=======
+              "duration": 17472396,
+              "status": "passed"
+            },
+            "line": 80,
+>>>>>>> main
+            "name": "count of deck is \"54\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "54",
+                  "offset": 18
+                }
+              ],
+              "location": "Drawcards.count_of_deck_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 72334245,
+              "status": "passed"
+            },
+            "line": 79,
+=======
+              "duration": 110072961,
+              "status": "passed"
+            },
+            "line": 81,
+>>>>>>> main
+            "name": "Draw the by postrequest \"https://deckofcardsapi.com/api/deck/%3C%3Cdeck_id%3E%3E/draw/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://deckofcardsapi.com/api/deck/%3C%3Cdeck_id%3E%3E/draw/",
+                  "offset": 25
+                }
+              ],
+              "location": "Drawcards.Draw_the_by_postrequest(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 135583,
+              "status": "passed"
+            },
+            "line": 80,
+=======
+              "duration": 253880,
+              "status": "passed"
+            },
+            "line": 82,
+>>>>>>> main
+            "name": "verify response code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 21
+                }
+              ],
+              "location": "Drawcards.verify_response_code(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+<<<<<<< HEAD
+            "line": 74,
+=======
+            "line": 76,
+>>>>>>> main
+            "name": "@TestcaseId2"
+          }
+        ]
+      }
+    ],
+    "name": "Draw one or more cards from the avaible deck",
+    "description": "",
+    "id": "draw-one-or-more-cards-from-the-avaible-deck",
+    "keyword": "Feature",
+<<<<<<< HEAD
+    "uri": "Drawoneormorecards.feature"
+=======
+    "uri": "src/test/resource/Feature/Drawoneormorecards.feature"
+>>>>>>> main
+  }
+]
