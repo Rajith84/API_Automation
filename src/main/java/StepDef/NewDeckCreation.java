@@ -2,42 +2,37 @@
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import static io.restassured.RestAssured.given; 
-import java.util.Map;
-import io.restassured.RestAssured; 
+import general.card_draw_reusable;
 import io.restassured.response.Response; 
-import org.junit.Assert;
- 
-public class NewDeckCreation  {
 
- 
+public class NewDeckCreation extends card_draw_reusable  {
 	String url;
 	static Response response;
-	 String endpoint; 
-	 static  Response response1;
-	 Map<String, Object> responseMap;
-	 Map<String, String> query;
+	String endpoint; 
+	public static  Response response1;
+	
  
 
 @Given("^the api are up and runnig for \"([^\"]*)\"$")
 public void the_api_are_up_and_runnig_for(String url) throws Throwable
   {
-	this.url=url;
-		 response = given().when().get(url);
-		 Assert.assertEquals(200, response.getStatusCode());	 
-		 Thread. sleep(30) ;		
+	 
+	newcard(url);
+	response_code(200, upandrunning());  
+		 		
 	}
 	@When("^A user perform post request \"([^\"]*)\"$")
 	public void A_user_perform_post_request(String endpoint) throws Throwable {
-		this.endpoint= endpoint;
-		response1=  RestAssured.get(endpoint);
+		;
+		System.out.println(Drawnewcard(endpoint));
 	 
 	}
 	 
 	@Then("^user receives (\\d+) response$")
 	public void user_receives_response(int code) throws Throwable {
 		 
-		 Assert.assertEquals(code, response1.getStatusCode());
+		response_code(code,get_DrawcardStatus());
+		 
 		 
 		 
 		    

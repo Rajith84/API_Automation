@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		 ,monochrome = true// display the console out put in a roper way
 		,strict = true //Will check if any step definition is missed in step definition file
 		,dryRun = false //will check the mapping feature file and step definition file
-		,tags={"@TestcaseId1,@TestcaseId2"}	//differentiate the run like regression and sanity and also can do parallel  execution    
+		,tags={"@regression,@sanity	"}	//differentiate the run like regression and sanity and also can do parallel  execution    
 		)// Hooks is special script functions that run before or after for test cases
  
 public class TestRunner {
