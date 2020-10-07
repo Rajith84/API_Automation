@@ -73,7 +73,7 @@ Scenario: 8 500 error for  cards along with  jokers_enabled=true
 	Then Draw the by postrequest "https://deckofcardsapi.com/api/deck//draw/"
 	And verify response code 500
  	
-@TestcaseId2
+@regression,@sanity	
 Scenario: 9 404 error for  cards along with  jokers_enabled=true 
 	Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/"
 	And A user perform post request "http://deckofcardsapi.com/api/deck/new/?jokers_enabled=true"

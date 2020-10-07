@@ -4,6 +4,8 @@ import static io.restassured.RestAssured.given;
 import general.card_draw_reusable;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+
+import org.codehaus.groovy.transform.EqualsAndHashCodeASTTransformation;
 import org.junit.Assert;
 
 public class card_draw_reusable {
@@ -12,6 +14,8 @@ public class card_draw_reusable {
 	public static Response draw_response;
 	public static Response response;
 	public static Response response1;
+	private static int count;
+	private static int result;
 	 
 	public static String new_deckid() ///will get new_deckid id for the newly 
 	{
@@ -19,7 +23,14 @@ public class card_draw_reusable {
 	}
 	public static int new_remaining()//Will get remaining number from the response for the newly created card
 	{
-		 	return  Integer.parseInt(response1.jsonPath().getString("remaining").trim());
+		try{
+		 	result= Integer.parseInt(response1.jsonPath().getString("remaining").trim());
+		}
+		catch(Exception e){
+			System.out.println(e);
+			
+		}
+		return result;
 	}
 	public static String card_remaining() ///Will get remaining number from the response for the drawn created card
 	{
@@ -71,4 +82,24 @@ public class card_draw_reusable {
  public static int get_drawn_respcode(){
 		return draw_response.getStatusCode();
 	}
+ 
+ public static int validate_count(String type1){
+	  
+	 try{			//will check if new card or old card 
+		
+		if (type1.equals("New")){
+			 count = new_remaining(); 
+		}
+		else    {			 
+			count = Integer.parseInt(card_remaining());
+			
+		}
+		
+		 
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
+	return count; 	
+ }
 }

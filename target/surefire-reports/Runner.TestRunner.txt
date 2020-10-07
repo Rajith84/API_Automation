@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 85, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 29.143 sec <<< FAILURE!
+Then user receives 400 response(Scenario: 1 Create of new cards with valid end point)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at general.card_draw_reusable.response_code(card_draw_reusable.java:65)
+	at StepDef.NewDeckCreation.user_receives_response(NewDeckCreation.java:34)
+	at ?.Then user receives 400 response(src/test/resource/Feature/Createnewdeckcards.feature:7)
+
+Scenario: 1 Create of new cards with valid end point  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<400> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at general.card_draw_reusable.response_code(card_draw_reusable.java:65)
+	at StepDef.NewDeckCreation.user_receives_response(NewDeckCreation.java:34)
+	at ?.Then user receives 400 response(src/test/resource/Feature/Createnewdeckcards.feature:7)
+

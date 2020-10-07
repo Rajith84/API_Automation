@@ -1,44 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="8.648133">
-<testcase classname="Create of new cards with joker and with or without joker" name="1 Create of new cards with valid end point" time="3.863145">
-<system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="17.674027">
+<testcase classname="Create of new cards with joker and with or without joker" name="1 Create of new cards with valid end point" time="5.332508">
+<failure message="java.lang.AssertionError: expected:&lt;56&gt; but was:&lt;52&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at general.card_draw_reusable.response_code(card_draw_reusable.java:76)&#13;&#10;&#9;at StepDef.Drawcards.Validate_the_response_body_for_the_remaing_value(Drawcards.java:64)&#13;&#10;&#9;at ✽.Then Validate the response body for the &quot;New&quot; remaing value 56(src/test/resource/Feature/Createnewdeckcards.feature:8)&#13;&#10;"><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "http://deckofcardsapi.com/api/deck/new/"..passed
 Then user receives 200 response.............................................passed
-Then Validate the response body for the "New" remaing value 52..............passed
-]]></system-out>
+Then Validate the response body for the "New" remaing value 56..............failed
+
+StackTrace:
+java.lang.AssertionError: expected:<56> but was:<52>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at general.card_draw_reusable.response_code(card_draw_reusable.java:76)
+	at StepDef.Drawcards.Validate_the_response_body_for_the_remaing_value(Drawcards.java:64)
+	at ✽.Then Validate the response body for the "New" remaing value 56(src/test/resource/Feature/Createnewdeckcards.feature:8)
+]]></failure>
 </testcase>
-<testcase classname="Create of new cards with joker and with or without joker" name="2 validate  the invalid end point  for new cards" time="0.203656">
+<testcase classname="Create of new cards with joker and with or without joker" name="2 validate  the invalid end point  for new cards" time="0.735857">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "http://deckofcardsapi.com/api/deck/ ".....passed
 Then user receives 404 response.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Create of new cards with joker and with or without joker" name="3 validate of new cards with invalid  end point with jokers_enabled=true" time="0.278984">
+<testcase classname="Create of new cards with joker and with or without joker" name="3 validate of new cards with invalid  end point with jokers_enabled=true" time="0.694142">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "https://deckofcardsapi.com/api/deck/news/".passed
 Then user receives 500 response.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Create of new cards with joker and with or without joker" name="4 validate of new cards with  end point with jokers_enabled=true" time="0.293521">
+<testcase classname="Create of new cards with joker and with or without joker" name="4 validate of new cards with  end point with jokers_enabled=true" time="0.794352">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "https://deckofcardsapi.com/api/deck/new/?jokers_enabled=flase".passed
 Then user receives 200 response.............................................passed
 Then Validate the response body for the "New" remaing value 52..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Create of new cards with joker and with or without joker" name="5 Invalid end point or resource not found" time="0.216144">
+<testcase classname="Create of new cards with joker and with or without joker" name="5 Invalid end point or resource not found" time="0.522004">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "http://deckofcardsapi.com/api/deck//?jokers_enabled=true".passed
 Then user receives 404 response.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Create of new cards with joker and with or without joker" name="6 Create of new cards with invalid end point end point with jokers_enabled=true" time="0.23916">
+<testcase classname="Create of new cards with joker and with or without joker" name="6 Create of new cards with invalid end point end point with jokers_enabled=true" time="0.733885">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "https://deckofcardsapi.com/api/deck/new/?jokers_enabled=true".passed
 Then user receives 200 response.............................................passed
 Then Validate the response body for the "New" remaing value 54..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="1 Create of new cards with valid end point" time="1.276298">
+<testcase classname="Draw one or more cards from the avaible deck" name="1 Create of new cards with valid end point" time="1.18841">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 When A user perform post request "http://deckofcardsapi.com/api/deck/new/"..passed
 And count of deck is "52"...................................................passed
@@ -47,28 +57,28 @@ And verify response code 200................................................pass
 Then Validate the response body for the "Drawncard" remaing value 52........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="2 draw the deck count is 4" time="0.262831">
+<testcase classname="Draw one or more cards from the avaible deck" name="2 draw the deck count is 4" time="0.490253">
 <system-out><![CDATA[Given Get the reaming count of the deck.....................................passed
 Then Draw the 4 cards from the avaible deck_id by postrequest...............passed
 And verify response code 200................................................passed
 Then Validate the response body for the "Drawncard" remaing value 48........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="3 draw the deck count is 52" time="0.476927">
+<testcase classname="Draw one or more cards from the avaible deck" name="3 draw the deck count is 52" time="0.507555">
 <system-out><![CDATA[Given Get the reaming count of the deck.....................................passed
 Then Draw the 52 cards from the avaible deck_id by postrequest..............passed
 And verify response code 200................................................passed
 Then Validate the response body for the "Drawncard" remaing value 0.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="4 draw the deck count is 53 and error message should be displayed &quot;Not enough cards remaining to draw 53 additional&quot;" time="0.237214">
+<testcase classname="Draw one or more cards from the avaible deck" name="4 draw the deck count is 53 and error message should be displayed &quot;Not enough cards remaining to draw 53 additional&quot;" time="0.479341">
 <system-out><![CDATA[Given Get the reaming count of the deck.....................................passed
 Then Draw the 53 cards from the avaible deck_id by postrequest..............passed
 And verify response code 200................................................passed
 Then error messsage should be displayed "Not enough cards remaining to draw 53 additional".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="5 draw the deck count is 52" time="0.263969">
+<testcase classname="Draw one or more cards from the avaible deck" name="5 draw the deck count is 52" time="0.396788">
 <system-out><![CDATA[Given Get the reaming count of the deck.....................................passed
 Then Draw the 5 cards from the avaible deck_id by postrequest...............passed
 And verify response code 200................................................passed
@@ -76,7 +86,7 @@ Then Validate the response body for the "Drawncard" remaing value 0.........pass
 Then error messsage should be displayed "Not enough cards remaining to draw 5 additional".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="6 Create of new cards with valid end point along with jokers_enabled" time="0.379378">
+<testcase classname="Draw one or more cards from the avaible deck" name="6 Create of new cards with valid end point along with jokers_enabled" time="3.09953">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 And A user perform post request "http://deckofcardsapi.com/api/deck/new/?jokers_enabled=true".passed
 And count of deck is "54"...................................................passed
@@ -85,14 +95,14 @@ And verify response code 200................................................pass
 Then Validate the response body for the "Drawncard" remaing value 54........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="7 draw the deck count is 56 and error message should be displayed &quot;Not enough cards remaining to draw 56 additional&quot;" time="0.174273">
+<testcase classname="Draw one or more cards from the avaible deck" name="7 draw the deck count is 56 and error message should be displayed &quot;Not enough cards remaining to draw 56 additional&quot;" time="0.392838">
 <system-out><![CDATA[Given Get the reaming count of the deck.....................................passed
 Then Draw the 56 cards from the avaible deck_id by postrequest..............passed
 And verify response code 200................................................passed
 Then error messsage should be displayed "Not enough cards remaining to draw 56 additional".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="7 draw the deck count is 4" time="0.207468">
+<testcase classname="Draw one or more cards from the avaible deck" name="7 draw the deck count is 4" time="0.465607">
 <system-out><![CDATA[Given Get the reaming count of the deck.....................................passed
 Then Draw the 4 cards from the avaible deck_id by postrequest...............passed
 And verify response code 200................................................passed
@@ -100,12 +110,20 @@ Then Validate the response body for the "Drawncard" remaing value 0.........pass
 Then error messsage should be displayed "Not enough cards remaining to draw 4 additional".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Draw one or more cards from the avaible deck" name="8 500 error for  cards along with  jokers_enabled=true" time="0.275165">
+<testcase classname="Draw one or more cards from the avaible deck" name="8 500 error for  cards along with  jokers_enabled=true" time="0.869698">
 <system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
 And A user perform post request "http://deckofcardsapi.com/api/deck/new/?jokers_enabled=true".passed
 And count of deck is "54"...................................................passed
 Then Draw the by postrequest "https://deckofcardsapi.com/api/deck//draw/"...passed
 And verify response code 500................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Draw one or more cards from the avaible deck" name="9 404 error for  cards along with  jokers_enabled=true" time="0.971259">
+<system-out><![CDATA[Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/".passed
+And A user perform post request "http://deckofcardsapi.com/api/deck/new/?jokers_enabled=true".passed
+And count of deck is "54"...................................................passed
+Then Draw the by postrequest "https://deckofcardsapi.com/api/deck/%3C%3Cdeck_id%3E%3E/draw/".passed
+And verify response code 404................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -5,7 +5,7 @@ Scenario: 1 Create of new cards with valid end point
 	Given the api are up and runnig for "https://deckofcardsapi.com/api/deck/new/"
 	When A user perform post request "http://deckofcardsapi.com/api/deck/new/"
 	Then  user receives 200 response
-	Then Validate the response body for the "New" remaing value 52
+	Then Validate the response body for the "New" remaing value 56
 	
  @regression 	
  Scenario: 2 validate  the invalid end point  for new cards  

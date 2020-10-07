@@ -59,20 +59,10 @@ public class Drawcards extends card_draw_reusable    {
 @Then("^Validate the response body for the \"([^\"]*)\" remaing value (\\d+)$")
 public void Validate_the_response_body_for_the_remaing_value(String type1, int numbe)  throws Throwable{
 		
-		try{
-			int  count;//will check if new card or old card 
-		
-		if (type1=="New"){
-			 count = new_remaining();
-		}
-		else    {
-			 
-			count = Integer.parseInt(card_remaining());
-		}
-		 response_code(numbe, count); 
-		}
-		catch(Exception e){
-			System.out.println(e);
-		}		
+ System.out.println(type1 +" "+ numbe);
+ System.out.println(new_remaining());
+	response_code(numbe,validate_count(type1));
+	
+		 
 	}
 }
