@@ -1,4 +1,4 @@
-# Finra Test
+#  Test
 ## Install Java
 1. Download Java SDK 1.8  https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 2. Select Start -> Computer -> System Properties -> Advanced system settings -> Environment Variables -> System variables -> PATH. set the JAVA_HOME
@@ -53,10 +53,3 @@ Then error messsage should be displayed "Not enough cards remaining to draw 4 ad
 
 ## Software requirment:
 System installed with eclipse with maven project and assocaited depedences and plugin are added in pom.xml file
-
-
-## Information:
-for complex project:
-Can use datatable or datadriven in features table will make more effective reuse of the methods.
-Using java Map to compare more respone result
-Can use interface and abstract class to make more effectiv way. 

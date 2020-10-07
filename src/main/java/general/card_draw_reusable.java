@@ -72,8 +72,8 @@ public class card_draw_reusable {
 		 
 		return response.getStatusCode();
 	}
- public static  void response_code(int  Actau,int expect){
-	 Assert.assertEquals( Actau,expect);
+ public static  void Result_Compare(int  Actau,int expect){
+	 Assert.assertEquals( expect,Actau);
 	
  }
  public static int get_DrawcardStatus(){

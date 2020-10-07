@@ -18,7 +18,8 @@ public void the_api_are_up_and_runnig_for(String url) throws Throwable
   {
 	 
 	newcard(url);
-	response_code(200, upandrunning());  
+	Result_Compare(upandrunning(), 200);
+	  
 		 		
 	}
 	@When("^A user perform post request \"([^\"]*)\"$")
@@ -31,10 +32,8 @@ public void the_api_are_up_and_runnig_for(String url) throws Throwable
 	@Then("^user receives (\\d+) response$")
 	public void user_receives_response(int code) throws Throwable {
 		 
-		response_code(code,get_DrawcardStatus());
-		 
-		 
-		 
+		
+		Result_Compare(get_DrawcardStatus(), code);
 		    
 	}
 	  

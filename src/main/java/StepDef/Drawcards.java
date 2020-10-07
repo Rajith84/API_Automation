@@ -20,7 +20,7 @@ public class Drawcards extends card_draw_reusable    {
 	public void count_of_deck_is(String value) throws Throwable  {
 		 
 		int code=Integer.parseInt(value);  
-		response_code(new_remaining(), code);
+		Result_Compare(new_remaining(), code);
 	}
 	
 	
@@ -35,7 +35,7 @@ public class Drawcards extends card_draw_reusable    {
 	@Then("^verify response code (\\d+)$")
 	public void verify_response_code(int value) throws Throwable {
 	    // Express the Regexp above with the code you wish you had
-		response_code(value,get_drawn_respcode()); 
+		Result_Compare(get_drawn_respcode(),value); 
 	}
 	
 	@Given("^Get the reaming count of the deck$")
@@ -61,7 +61,7 @@ public void Validate_the_response_body_for_the_remaing_value(String type1, int n
 		
  System.out.println(type1 +" "+ numbe);
  System.out.println(new_remaining());
-	response_code(numbe,validate_count(type1));
+ Result_Compare(validate_count(type1),numbe);
 	
 		 
 	}
