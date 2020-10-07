@@ -1,4 +1,4 @@
-# Finra Test
+#  Test
 ## Install Java
 1. Download Java SDK 1.8  https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 2. Select Start -> Computer -> System Properties -> Advanced system settings -> Environment Variables -> System variables -> PATH. set the JAVA_HOME
